@@ -598,16 +598,19 @@ section {
   padding-bottom: 40px;
 }
 
+.section-title {
+  background: linear-gradient(to right, #123159, #3C74A6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .section-title h2 {
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 5px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+
+  background: linear-gradient(to right, #123159, #3C74A6);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .section-title h2::after {
@@ -615,17 +618,15 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: #208C81;
   margin: 4px 10px;
 }
 
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  color: #010483;
+  font-size: 17px;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -740,6 +741,12 @@ section {
   color: transparent;
 }
 
+.judul-enjoy p {
+  margin: 0;
+  margin: 0;
+  font-size: 17px;
+  color: #000000;
+}
 
 .about .icon-boxes h3 {
   font-size: 28px;
@@ -786,7 +793,7 @@ section {
 }
 
 .about .icon-box .title a {
-  color: #343a40;
+  color: #000000;
   transition: 0.3s;
 }
 
@@ -797,7 +804,8 @@ section {
 .about .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 17px;
+  color: #000000;
 }
 
 .icon-box img {

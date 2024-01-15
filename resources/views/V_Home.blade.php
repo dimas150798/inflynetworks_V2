@@ -121,10 +121,12 @@
 
                         <div class="judul-enjoy">
                             <h1>Enjoy Your Digital Experience With Us</h1>
+
+                            <p>Pengalaman digital terbaik melayani semua kebutuhan digital anda dalam gaya hidup,
+                                hiburan
+                                maupun bisnis</p>
                         </div>
 
-                        <p>Pengalaman digital terbaik melayani semua kebutuhan digital anda dalam gaya hidup, hiburan
-                            maupun bisnis.</p>
 
                         <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                             <div class="icon"><img src="{{ asset('assets/img/ikon/customer_service.png') }}"
@@ -162,8 +164,7 @@
 
                 <div class="section-title" data-aos="fade-up">
                     <h2>Infly Home</h2>
-                    <p>Perusahaan penyedia jasa layanan internet yang terus berinovasi dengan menggunakan teknologi
-                        terbaru</p>
+                    <p>Nikmati Koneksi Infly Home dengan kecepatan hingga 100 Mbps yang hadir di rumah Anda</p>
                 </div>
 
                 <div class="row" data-aos="fade-left">
