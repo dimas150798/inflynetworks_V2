@@ -710,6 +710,20 @@ section {
   height: auto;
 }
 
+@media (max-width: 991px) {
+  .img-enjoy {
+    width: 100%; 
+    height: auto; 
+    margin-left: -11.5cm;
+    border: none;
+  }
+  
+  .img-enjoy img {
+    width: 170%;
+    height: auto;
+  }
+}
+
 /* Untuk efek gradien pada teks */
 .judul-enjoy {
   background: linear-gradient(to right, #F24405, #F29F05);
