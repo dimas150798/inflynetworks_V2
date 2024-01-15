@@ -110,7 +110,7 @@
 
                 <div class="row">
 
-                    <div class="col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch"
+                    <div class="col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch mt-4"
                         data-aos="fade-right">
                         <div class="img-enjoy">
                             <img src="{{ asset('assets/img/gallery/bg-enjoy.png') }}" alt="">
