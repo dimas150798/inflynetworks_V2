@@ -427,12 +427,9 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
+  font-family: "Arboria-Medium";
   line-height: 56px;
   color: #fff
-  /* border-bottom: 4px solid #1acc8d; */
-}
-
-#flat h1 {
 }
 
 #hero h1 span {
@@ -444,6 +441,7 @@ h6 {
   color: #fff;
   margin-bottom: 40px;
   font-size: 24px;
+  font-family: "Arboria-Book";
 }
 
 #hero .btn-get-started {
@@ -586,7 +584,6 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -595,7 +592,9 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .section-title {
@@ -606,29 +605,68 @@ section {
 
 .section-title h2 {
   font-weight: bold;
-  font-size: 27px;
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  font-family: "Arboria-Medium";
 
   background: linear-gradient(to right, #123159, #3C74A6);
   -webkit-background-clip: text;
   color: transparent;
 }
 
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #208C81;
-  margin: 4px 10px;
-}
-
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 17px;
+  font-size: 25px;
   color: #000000;
+  font-family: "Arboria-Book";
 }
 
+.img-section img{
+  width: 75%;
+  text-align: center;
+  align-items: center;
+}
+
+#infly-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Use viewport height for full-height container */
+  background: linear-gradient(to right, #123159, #3C74A6);
+}
+
+#infly-home h2 {
+  color: #fff;
+  font-family: "Arboria-Medium";
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+    font-family: "Arboria-Book";
+  }
+
+  .img-section img{
+    width: 120%;
+    text-align: center;
+    align-items: center;
+    margin-left: -35px;
+  }
+
+  #infly-home h2 {
+    color: #fff;
+    font-family: "Arboria-Medium";
+    text-align: center;
+    font-size: 25px;
+  }
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -734,7 +772,8 @@ section {
 
 .judul-enjoy h1 {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 35px;
+  font-family: "Arboria-Medium";
 
   background: linear-gradient(to right, #F24405, #F29F05);
   -webkit-background-clip: text;
@@ -742,10 +781,9 @@ section {
 }
 
 .judul-enjoy p {
-  margin: 0;
-  margin: 0;
-  font-size: 17px;
+  font-size: 25px;
   color: #000000;
+  font-family: "Arboria-Book";
 }
 
 .about .icon-boxes h3 {
@@ -804,7 +842,8 @@ section {
 .about .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
-  font-size: 17px;
+  font-size: 19px;
+  font-family: "Arboria-Book";
   color: #000000;
 }
 
