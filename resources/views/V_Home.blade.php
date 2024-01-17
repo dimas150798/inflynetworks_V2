@@ -159,87 +159,195 @@
             <h2>Nikmati pilihan internet terbaikmu hingga 100 Mbps</h2>
         </section>
 
-        <!-- End Features Section -->
+        <section id="paket-home" class="paket-home">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
+                        <div class="plan-card" id="">
+                            <h4>Home 10</h4>
+                            <div class="etiquet-price" id="etiquet-price">
+                                <p>160.000</p>
+                                <div></div>
+                            </div>
+                            <div class="benefits-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 3 Perangkat</span></li>
+                                </ul>
+                            </div>
+                            <div class="button button-get-plan" id="one">
+                                <a>
+                                    <span class="fw-bold text-white">Pilih Paket</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
+                        <div class="plan-card">
+                            <h4>Home 20</h4>
+                            <div class="etiquet-price">
+                                <p>200.000</p>
+                                <div></div>
+                            </div>
+                            <div class="benefits-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 5 Perangkat</span></li>
+                                </ul>
+                            </div>
+                            <div class="button-get-plan">
+                                <a>
+                                    <span>Pilih Paket</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
+                        <div class="plan-card">
+                            <h4>Home 30</h4>
+                            <div class="etiquet-price">
+                                <p>250.000</p>
+                                <div></div>
+                            </div>
+                            <div class="benefits-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 7 Perangkat</span></li>
+                                </ul>
+                            </div>
+                            <div class="button-get-plan">
+                                <a>
+                                    <span>Pilih Paket</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
+                        <div class="plan-card" id="">
+                            <h4>Home 10</h4>
+                            <div class="etiquet-price">
+                                <p>160.000</p>
+                                <div></div>
+                            </div>
+                            <div class="benefits-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 3 Perangkat</span></li>
+                                </ul>
+                            </div>
+                            <div class="button button-get-plan" id="one">
+                                <a>
+                                    <span>Pilih Paket</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
+                        <div class="plan-card">
+                            <h4>Home 20</h4>
+                            <div class="etiquet-price">
+                                <p>200.000</p>
+                                <div></div>
+                            </div>
+                            <div class="benefits-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 5 Perangkat</span></li>
+                                </ul>
+                            </div>
+                            <div class="button-get-plan">
+                                <a>
+                                    <span>Pilih Paket</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- End Features Section -->
 
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
+    <div class="container-fluid bg-primary text-light" id="tentangkami">
+        <div class="container">
+            <div class="row flex-wrap">
+                <div class="col-12 col-xl-6 col-lg-6">
+                    <div class="d-flex flex-column flex-sm-row">
+                        <div class="p-4">
+                            <img class="img-size-footerlogo" src="{{ asset('assets/img/logo/logo-white.png') }}"
+                                class="img-fluid animated" alt="">
+                        </div>
+                        <div class="p-3 alamat">
+                            <b>Alamat</b> <br>
+                            Jl. Hos Cokroaminoto 72, RT 01, RW 11 Kelurahan Kanigaran, Kecamatan Kanigaran Probolinggo,
+                            Jawa Timur - 67213, Indonesia
+                            <br> <br>
+                            <b>Telepon</b> <br>
+                            <i class="bi bi-whatsapp"></i> 0838-6556-6635 <br>
+                            <i class="bi bi-telephone-fill"></i> 0335-437-766
+                            <br> <br>
+                            <b>Email</b> <br>
+                            <i class="bi bi-envelope"></i> helpdesk@inflynetworks.com <br>
+                        </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-info">
-                            <h3>Bootslander</h3>
-                            <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam
-                                    excepturi quod.</em></p>
-                            <p>
-                                A108 Adam Street <br>
-                                NY 535022, USA<br><br>
-                                <strong>Phone:</strong> +1 5589 55488 55<br>
-                                <strong>Email:</strong> info@example.com<br>
-                            </p>
-                            <div class="social-links mt-3">
-                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 col-lg-6">
+                    <div class="d-flex flex-column align-items-center justify-content-center" id="member">
+                        <div class="col-12 col-lg-11 col-xl-11 d-flex flex-row flex-wrap justify-content-center">
+                            <!-- gambar 1 -->
+                            <div class="p-2 member col-12 col-lg-12">
+                                <div class="member-judul text-center">
+                                    <h6>Member Of</h6>
+                                </div>
+                            </div>
+                            <div class="p-2 member col-3 col-lg-3">
+                                <div class="member-img">
+                                    <img src="{{ asset('assets/img/logo/idnic.png') }}" alt="IDNIC">
+                                </div>
+                            </div>
+                            <!-- gambar 2 -->
+                            <div class="p-2 member col-3 col-lg-3">
+                                <div class="member-img">
+                                    <img src="{{ asset('assets/img/logo/apjii.png') }}"alt="APJII">
+                                </div>
+                            </div>
+                            <!-- gambar 3 -->
+                            <div class="p-2 member col-3 col-lg-3">
+                                <div class="member-img">
+                                    <img src="{{ asset('assets/img/logo/SDI.png') }}" alt="SDI">
+                                </div>
+                            </div>
+                            <!-- gambar 4 -->
+                            <div class="p-2 member col-3 col-lg-3">
+                                <div class="member-img">
+                                    <img src="{{ asset('assets/img/logo/multidata.png') }}" alt="Multidata">
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                        </ul>
-                    </div>
+            </div>
+        </div>
+    </div>
 
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 footer-newsletter">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-
-                    </div>
-
+    <div class="copyright bg-dark text-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2023 Copyright : Infly Networks. All Rights Reserved</p>
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-    </footer><!-- End Footer -->
+    </div>
+    <!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
