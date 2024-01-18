@@ -785,7 +785,7 @@ section {
     font-family: "Arboria-Medium";
     font-size: 30px;
 
-    background: linear-gradient(to right, #F24405, #F29F05);
+    background: linear-gradient(to right, #095159, #1B9CA8);
     -webkit-background-clip: text;
     color: transparent;
   }
