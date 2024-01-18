@@ -1848,16 +1848,20 @@ section {
 }
 
 /* Media query untuk layar mobile atau kecil */
-@media (max-width: 991) {
+@media (max-width: 767px) {
   #tentangkami::before {
-      display: none; /* Sembunyikan pseudo-element pada layar mobile atau kecil */
+      display: none; 
   }
 
 /* CSS untuk mengatur ukuran gambar pada elemen "member-img" */
   #tentangkami .member-img img {
-    width: 70px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-    height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek gambar */
+    width: 50px;
+    height: auto;
     background-color: #fff;
-    border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
-  }
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
 }
