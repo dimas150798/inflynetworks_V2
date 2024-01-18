@@ -1855,7 +1855,7 @@ section {
 
 /* CSS untuk mengatur ukuran gambar pada elemen "member-img" */
   #tentangkami .member-img img {
-    width: 90px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    width: 80px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
     height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek gambar */
     background-color: #fff;
     border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */

@@ -311,25 +311,25 @@
                                 <h5>Member Of</h5>
                             </div>
                             <!-- gambar 2 -->
-                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                            <div class="p-2 member col-3  col-lg-3">
                                 <div class="member-img d-flex justify-content-center">
                                     <img src="{{ asset('assets/img/logo/idnic.png') }}" alt="IDNIC">
                                 </div>
                             </div>
                             <!-- gambar 3 -->
-                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                            <div class="p-2 member col-3  col-lg-3">
                                 <div class="member-img d-flex justify-content-center">
                                     <img src="{{ asset('assets/img/logo/apjii.png') }}" alt="APJII">
                                 </div>
                             </div>
                             <!-- gambar 4 -->
-                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                            <div class="p-2 member col-3  col-lg-3">
                                 <div class="member-img d-flex justify-content-center">
                                     <img src="{{ asset('assets/img/logo/SDI.png') }}" alt="SDI">
                                 </div>
                             </div>
                             <!-- gambar 5 -->
-                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                            <div class="p-2 member col-3  col-lg-3">
                                 <div class="member-img d-flex justify-content-center">
                                     <img src="{{ asset('assets/img/logo/multidata.png') }}" alt="Multidata">
                                 </div>
