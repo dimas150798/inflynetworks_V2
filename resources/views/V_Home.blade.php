@@ -43,7 +43,7 @@
             <div class="logo">
                 <h1><a href="index.html">
                         <span>
-                            <img src="{{ asset('assets/img/logo/infly_logo.png') }}" alt="">
+                            <img src="{{ asset('assets/img/logo/Infly_Logo.png') }}" alt="">
                         </span>
                     </a>
                 </h1>
@@ -147,7 +147,7 @@
 
                 <div class="section-title" data-aos="fade-up">
                     <h2>Infly Home</h2>
-                    <p>Nikmati Koneksi Infly Home dengan kecepatan hingga 100 Mbps <br> yang hadir di rumah Anda</p>
+                    <p>Nikmati Koneksi Infly Home dengan kecepatan hingga 100 Mbps yang hadir di rumah Anda</p>
                     <div class="img-section">
                         <img src="{{ asset('assets/img/gallery/bg-section.png') }}" alt="">
                     </div>
