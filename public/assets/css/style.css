@@ -751,7 +751,7 @@ section {
 
 /* Untuk efek gradien pada teks */
 .judul-enjoy {
-  background: linear-gradient(to right, #F24405, #F29F05);
+  background: linear-gradient(to right, #095159, #1B9CA8);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -761,7 +761,7 @@ section {
   font-size: 35px;
   font-family: "Arboria-Medium";
 
-  background: linear-gradient(to right, #F24405, #F29F05);
+  background: linear-gradient(to right, #095159, #1B9CA8);
   -webkit-background-clip: text;
   color: transparent;
 }
