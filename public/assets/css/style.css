@@ -1848,14 +1848,14 @@ section {
 }
 
 /* Media query untuk layar mobile atau kecil */
-@media (max-width: 767px) {
+@media (max-width: 991) {
   #tentangkami::before {
       display: none; /* Sembunyikan pseudo-element pada layar mobile atau kecil */
   }
 
 /* CSS untuk mengatur ukuran gambar pada elemen "member-img" */
   #tentangkami .member-img img {
-    width: 80px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    width: 70px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
     height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek gambar */
     background-color: #fff;
     border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
