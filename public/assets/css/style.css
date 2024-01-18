@@ -41,7 +41,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
+  border: 6px solid #095159;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
@@ -1565,7 +1565,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #095159;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
