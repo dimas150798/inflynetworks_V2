@@ -43,7 +43,7 @@
             <div class="logo">
                 <h1><a href="index.html">
                         <span>
-                            <img src="{{ asset('assets/img/logo/logo_infly.png') }}" alt="">
+                            <img src="{{ asset('assets/img/logo/infly_logo.png') }}" alt="">
                         </span>
                     </a>
                 </h1>
@@ -161,6 +161,7 @@
 
         <section id="paket-home" class="paket-home">
             <div class="container">
+
                 <div class="row d-flex justify-content-between">
                     <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
                         <div class="plan-card" id="">
@@ -171,8 +172,8 @@
                             </div>
                             <div class="benefits-list">
                                 <ul>
-                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
-                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 3 Perangkat</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Ideal Hingga 3 Perangkat</span></li>
                                 </ul>
                             </div>
                             <div class="button button-get-plan" id="one">
@@ -182,84 +183,88 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
-                        <div class="plan-card">
+                        <div class="plan-card" id="">
                             <h4>Home 20</h4>
-                            <div class="etiquet-price">
+                            <div class="etiquet-price" id="etiquet-price">
                                 <p>200.000</p>
                                 <div></div>
                             </div>
                             <div class="benefits-list">
                                 <ul>
-                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
-                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 5 Perangkat</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Ideal Hingga 5 Perangkat</span></li>
                                 </ul>
                             </div>
-                            <div class="button-get-plan">
+                            <div class="button button-get-plan" id="one">
                                 <a>
-                                    <span>Pilih Paket</span>
+                                    <span class="fw-bold text-white">Pilih Paket</span>
                                 </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
-                        <div class="plan-card">
+                        <div class="plan-card" id="">
                             <h4>Home 30</h4>
-                            <div class="etiquet-price">
+                            <div class="etiquet-price" id="etiquet-price">
                                 <p>250.000</p>
                                 <div></div>
                             </div>
                             <div class="benefits-list">
                                 <ul>
-                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
-                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 7 Perangkat</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Ideal Hingga 7 Perangkat</span></li>
                                 </ul>
                             </div>
-                            <div class="button-get-plan">
+                            <div class="button button-get-plan" id="one">
                                 <a>
-                                    <span>Pilih Paket</span>
+                                    <span class="fw-bold text-white">Pilih Paket</span>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
                         <div class="plan-card" id="">
-                            <h4>Home 10</h4>
-                            <div class="etiquet-price">
-                                <p>160.000</p>
+                            <h4>Home 50</h4>
+                            <div class="etiquet-price" id="etiquet-price">
+                                <p>320.000</p>
                                 <div></div>
                             </div>
                             <div class="benefits-list">
                                 <ul>
-                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
-                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 3 Perangkat</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Ideal Hingga 10 Perangkat</span></li>
                                 </ul>
                             </div>
                             <div class="button button-get-plan" id="one">
                                 <a>
-                                    <span>Pilih Paket</span>
+                                    <span class="fw-bold text-white">Pilih Paket</span>
                                 </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-sm-3 mt-md-3 mt-3">
-                        <div class="plan-card">
-                            <h4>Home 20</h4>
-                            <div class="etiquet-price">
-                                <p>200.000</p>
+                        <div class="plan-card" id="">
+                            <h4>Home 100</h4>
+                            <div class="etiquet-price" id="etiquet-price">
+                                <p>499.000</p>
                                 <div></div>
                             </div>
                             <div class="benefits-list">
                                 <ul>
-                                    <li><i class="fa-solid fa-check"></i><span>Unlimited Tanpa FUP</span></li>
-                                    <li><i class="fa-solid fa-check"></i><span>Ideal Hingga 5 Perangkat</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Unlimited Tanpa FUP</span></li>
+                                    <li><i class="bi bi-check-lg"></i><span>Ideal Hingga 14 Perangkat</span></li>
                                 </ul>
                             </div>
-                            <div class="button-get-plan">
+                            <div class="button button-get-plan" id="one">
                                 <a>
-                                    <span>Pilih Paket</span>
+                                    <span class="fw-bold text-white">Pilih Paket</span>
                                 </a>
                             </div>
                         </div>
@@ -301,38 +306,39 @@
                 <div class="col-12 col-xl-6 col-lg-6">
                     <div class="d-flex flex-column align-items-center justify-content-center" id="member">
                         <div class="col-12 col-lg-11 col-xl-11 d-flex flex-row flex-wrap justify-content-center">
-                            <!-- gambar 1 -->
-                            <div class="p-2 member col-12 col-lg-12">
-                                <div class="member-judul text-center">
-                                    <h6>Member Of</h6>
-                                </div>
+                            <!-- Judul Gambar -->
+                            <div class="p-2 col-12 col-lg-12 d-flex justify-content-center">
+                                <h5>Member Of</h5>
                             </div>
-                            <div class="p-2 member col-3 col-lg-3">
-                                <div class="member-img">
+                            <!-- gambar 2 -->
+                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                                <div class="member-img d-flex justify-content-center">
                                     <img src="{{ asset('assets/img/logo/idnic.png') }}" alt="IDNIC">
                                 </div>
                             </div>
-                            <!-- gambar 2 -->
-                            <div class="p-2 member col-3 col-lg-3">
-                                <div class="member-img">
-                                    <img src="{{ asset('assets/img/logo/apjii.png') }}"alt="APJII">
-                                </div>
-                            </div>
                             <!-- gambar 3 -->
-                            <div class="p-2 member col-3 col-lg-3">
-                                <div class="member-img">
-                                    <img src="{{ asset('assets/img/logo/SDI.png') }}" alt="SDI">
+                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                                <div class="member-img d-flex justify-content-center">
+                                    <img src="{{ asset('assets/img/logo/apjii.png') }}" alt="APJII">
                                 </div>
                             </div>
                             <!-- gambar 4 -->
-                            <div class="p-2 member col-3 col-lg-3">
-                                <div class="member-img">
+                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                                <div class="member-img d-flex justify-content-center">
+                                    <img src="{{ asset('assets/img/logo/SDI.png') }}" alt="SDI">
+                                </div>
+                            </div>
+                            <!-- gambar 5 -->
+                            <div class="p-2 member col-6 col-md-6 col-lg-3">
+                                <div class="member-img d-flex justify-content-center">
                                     <img src="{{ asset('assets/img/logo/multidata.png') }}" alt="Multidata">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
 
             </div>
         </div>

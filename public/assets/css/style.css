@@ -112,10 +112,6 @@ h6 {
 	background: #0b1e21;
 }
 
-/* #header.header-transparent {
-  background: transparent;
-} */
-
 #header.header-scrolled {
   background: #0b1e21;
   height: 95px;
@@ -408,14 +404,13 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
   position: relative;
   padding: 120px 0 20px 0;
 }
 
 #hero:before {
   content: "";
-  background: #0B5061;
+  background: #0F6B74;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -594,7 +589,7 @@ section {
 .section-title {
   align-items: center;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .section-title {
@@ -635,7 +630,7 @@ section {
   justify-content: center;
   align-items: center;
   height: 20vh; /* Use viewport height for full-height container */
-  background: linear-gradient(to right, #123159, #3C74A6);
+  background: -webkit-linear-gradient(50deg, #188d98,#095159);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(50deg, #188d98,#095159);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                                                  
 }
 
 #infly-home h2 {
@@ -645,14 +640,18 @@ section {
 }
 
 .paket-home {
-
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to top, #FFFFFF, #1FABB8, #1B9CA8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #1FABB8, #1B9CA8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media (max-width: 991px) {
+  #infly-home h2 {
+    color: #fff;
+    font-family: "Arboria-Medium";
+    text-align: center;
+    font-size: 25px;
+  }
+
   .section-title p {
     margin: 0;
     margin: 0;
@@ -666,13 +665,6 @@ section {
     text-align: center;
     align-items: center;
     margin-left: -35px;
-  }
-
-  #infly-home h2 {
-    color: #fff;
-    font-family: "Arboria-Medium";
-    text-align: center;
-    font-size: 25px;
   }
 }
 /*--------------------------------------------------------------
@@ -757,20 +749,6 @@ section {
   height: auto;
 }
 
-@media (max-width: 991px) {
-  .img-enjoy {
-    width: 100%; 
-    height: auto; 
-    margin-left: -11.5cm;
-    border: none;
-  }
-  
-  .img-enjoy img {
-    width: 170%;
-    height: auto;
-  }
-}
-
 /* Untuk efek gradien pada teks */
 .judul-enjoy {
   background: linear-gradient(to right, #F24405, #F29F05);
@@ -794,10 +772,42 @@ section {
   font-family: "Arboria-Book";
 }
 
+@media (max-width: 991px) {
+  .img-enjoy {
+    width: 100%; 
+    height: auto; 
+    margin-left: -11.5cm;
+    border: none;
+  }
+
+  .judul-enjoy h1 {
+    color: #fff;
+    font-family: "Arboria-Medium";
+    font-size: 30px;
+
+    background: linear-gradient(to right, #F24405, #F29F05);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .judul-enjoy p {
+    margin: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+    font-family: "Arboria-Book";
+  }
+  
+  .img-enjoy img {
+    width: 170%;
+    height: auto;
+  }
+}
+
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #095159;
   margin-bottom: 15px;
 }
 
@@ -812,19 +822,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #3d74b7;
+  border: 2px solid #0F6B74;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #3d74b7;
+  color: #19919D;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #3d74b7;
-  border-color: #3d74b7;
+  background: #19919D;
+  border-color: #0F6B74;
 }
 
 .about .icon-box:hover .icon i {
@@ -1609,18 +1619,17 @@ section {
 	border-radius: 10px;
 	border-bottom: 7px solid  #265f68;
 	box-shadow: 0 10px 19px rgba(66, 66, 66, 0.3);
-	font-family: "Poppins", sans-serif;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .plan-card h4 {
 	margin-bottom: 7px;
-	font-size: 20px;
-	font-weight: 700;
-	font-family: 'Nunito Sans', sans-serif;
+	font-size: 22px;
+  font-family: "Arboria-Medium";
+  font-weight: bold;
 }
 
 .etiquet-price {
@@ -1630,7 +1639,7 @@ section {
 	margin-left: -0.65rem;
 	padding: .2rem 1.2rem;
 	border-radius: 5px 0 0 5px;
-	font-family: 'Nunito Sans', sans-serif;
+  font-family: "Arboria-Book";
 }
 
 .etiquet-price p {
@@ -1645,7 +1654,6 @@ section {
 	content: "Rp. ";
 	margin-right: 5px;
 	font-size: 15px;
-	font-weight: 600;
 }
 
 .etiquet-price p:after {
@@ -1664,13 +1672,12 @@ section {
 	border-top: 13px solid #c58102;
 	border-bottom: 10px solid transparent;
 	border-right: 13px solid transparent;
-	z-index: -6;
 }
 
 .benefits-list {
 	margin-top: 16px;
 	font-family: 'Nunito Sans', sans-serif;
-	font-weight: 600;
+	font-weight: bold;
 }
 
 .benefits-list ul {
@@ -1779,7 +1786,6 @@ section {
   margin: 0 auto; /* Tengah horizontal */
 }
 
-
 /* CSS untuk elemen footer utama dan tentangkami */
 #tentangkami {
   position: relative;
@@ -1788,29 +1794,34 @@ section {
   padding: 20px 0 20px; /* Menambahkan jarak ke bawah 50px */
   z-index: 1;
   background-size: cover;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 /* Pseudo-element untuk bagian atas yang miring */
-#tentangkami::before {
+/* #tentangkami::before {
   content: "";
   position: absolute;
-  top: -50px; /* Ubah tinggi pseudo-element sesuai kebutuhan */
-  left: 0;
+  top: -50px;
   width: 100%;
   height: 100%;
   background: linear-gradient(90deg, rgba(23, 66, 72, 1) 0%, rgba(33, 113, 122, 1) 52%, rgba(23, 66, 72, 1) 100%);
   transform: skewY(-2deg);
   z-index: -1;
-}
-
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+} */
 
 /* CSS untuk mengatur ukuran gambar pada elemen "member-img" */
 #tentangkami .member-img img {
   width: 105px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
   height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek gambar */
-background-color: #fff;
-border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
+  background-color: #fff;
+  border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #tentangkami h5 {
@@ -1843,10 +1854,10 @@ border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
   }
 
 /* CSS untuk mengatur ukuran gambar pada elemen "member-img" */
-#tentangkami .member-img img {
-  width: 90px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-  height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek gambar */
-  background-color: #fff;
-  border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
-}
+  #tentangkami .member-img img {
+    width: 90px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek gambar */
+    background-color: #fff;
+    border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
+  }
 }
