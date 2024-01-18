@@ -1815,13 +1815,14 @@ section {
 
 /* CSS untuk mengatur ukuran gambar pada elemen "member-img" */
 #tentangkami .member-img img {
-  width: 80px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-  height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek gambar */
+  width: 100px;
+  height: auto;
   background-color: #fff;
-  border-radius: 10px; /* Radius sudut yang akan memberikan efek melingkar */
-  display: flex;
-  align-items: center;
-  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 #tentangkami h5 {
@@ -1847,21 +1848,34 @@ section {
   margin-bottom: 0;
 }
 
-/* Media query untuk layar mobile atau kecil */
-@media (max-width: 767px) {
+/* Media query for small screens */
+@media (max-width: 575px) {
   #tentangkami::before {
-      display: none; 
+    display: none; 
   }
 
-/* CSS untuk mengatur ukuran gambar pada elemen "member-img" */
   #tentangkami .member-img img {
-    width: 70px;
-    height: auto;
-    background-color: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    width: 50px;
+  }
+}
+
+/* Media query for medium screens */
+@media (min-width: 576px) and (max-width: 767px) {
+  #tentangkami::before {
+    display: none; 
+  }
+
+  #tentangkami .member-img img {
+    width: 60px;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  #tentangkami::before {
+    display: none; 
+  }
+  #tentangkami .member-img img {
+    width: 80px;
   }
 }
