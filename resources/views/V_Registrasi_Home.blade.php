@@ -1,5 +1,6 @@
-@include('components/layouts/V_Header')
-@include('components/layouts/V_Sidebar')
+@include('components.layouts.V_Header')
+@include('components.layouts.V_Sidebar')
+
 
 <!-- ======= Hero Section ======= -->
 <section id="hero">
@@ -108,7 +109,7 @@
                             </ul>
                         </div>
                         <div class="button button-get-plan" id="one">
-                            <a href="<?= url('registrasi/home_10') ?>">
+                            <a href="<?= url('registrasi/home') ?>">
                                 <span class="fw-bold text-white">Pilih Paket</span>
                             </a>
                         </div>
@@ -129,7 +130,7 @@
                             </ul>
                         </div>
                         <div class="button button-get-plan" id="one">
-                            <a href="<?= url('registrasi/home_20') ?>">
+                            <a>
                                 <span class="fw-bold text-white">Pilih Paket</span>
                             </a>
                         </div>
@@ -150,7 +151,7 @@
                             </ul>
                         </div>
                         <div class="button button-get-plan" id="one">
-                            <a href="<?= url('registrasi/home_30') ?>">
+                            <a>
                                 <span class="fw-bold text-white">Pilih Paket</span>
                             </a>
                         </div>
@@ -173,7 +174,7 @@
                             </ul>
                         </div>
                         <div class="button button-get-plan" id="one">
-                            <a href="<?= url('registrasi/home_50') ?>">
+                            <a>
                                 <span class="fw-bold text-white">Pilih Paket</span>
                             </a>
                         </div>
@@ -194,7 +195,7 @@
                             </ul>
                         </div>
                         <div class="button button-get-plan" id="one">
-                            <a href="<?= url('registrasi/home_100') ?>">
+                            <a>
                                 <span class="fw-bold text-white">Pilih Paket</span>
                             </a>
                         </div>
