@@ -3,7 +3,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-            <h1><a href="<?= url('dashboard/home') ?>">
+            <h1><a href="{{ route('index') }}">
                     <span>
                         <img src="{{ asset('assets/img/logo/Infly_Logo.png') }}" alt="">
                     </span>
@@ -15,7 +15,7 @@
             <ul>
                 <li class="dropdown"><a href="#"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Broadband Internet</a></li>
+                        <li><a href="{{ route('index') }}#Broadband-Internet">Broadband Internet</a></li>
                         <li><a href="#">Dedicated Internet</a></li>
                         <li><a href="#">Program Kemitraan</a></li>
                     </ul>

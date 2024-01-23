@@ -76,7 +76,7 @@
     <section id="features" class="features">
         <div class="container-fluid">
 
-            <div class="section-title" data-aos="fade-up">
+            <div id="Broadband-Internet" class="section-title" data-aos="fade-up">
                 <h2>Infly Home</h2>
                 <p>Nikmati Koneksi Infly Home dengan kecepatan hingga 100 Mbps yang hadir di rumah Anda</p>
                 <div class="img-section">

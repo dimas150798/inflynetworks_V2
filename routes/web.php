@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', [C_Home::class, 'index']);
+Route::get('/', [C_Home::class, 'index'])->name('index');
 
 // Dashboard
 Route::get('/dashboard/home', [C_Home::class, 'index'])->name('dashboard.home');
