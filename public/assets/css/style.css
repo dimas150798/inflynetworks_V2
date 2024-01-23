@@ -1887,3 +1887,34 @@ section {
     width: 80px;
   }
 }
+
+/* Registrasi Home */
+.btn-save {
+  background: #0F8392;
+  border: 1.2px solid #000000; /* Fixing border property syntax */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+  color: #FFFFFF;
+  width: 200px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+/* Apabila data kosong */
+.alert-form {
+  margin-top: 5px;
+  line-height: 30px;
+  background-color: #EF5350;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
